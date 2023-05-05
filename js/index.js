@@ -232,7 +232,7 @@ function afficherFinQuiz() {
     zoneFinQuiz.innerHTML = `<p>Nombre de partie(s) jouée(s) : ${nombreParties}</p>`;
     zoneFinQuiz.innerHTML += `<p>Liste des réponses à toutes les parties jouées : </p>`;
     for (let partie of historique) {
-        zoneFinQuiz.innerHTML += `Date : ${partie.date} / <br>`; //À FINIR AVEC GITHUB
+        zoneFinQuiz.innerHTML += `Date : ${partie.date} / <br>`; //À FINIR AVEC GITHUB DU PROF
 
     }
 }
